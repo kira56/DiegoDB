@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
 let regionSchema = new Schema({
-    reg_nombre: {
+    reg_nom: {
         type: String,
         required: false,
         default: 'AREQUIPA'

@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json())
 
 // Controladores
-app.use(require('../controllers/usuario'));
+app.use(require('../controllers/index'));
 
 mongoose.connect('mongodb://localhost:27017/diegoDB', {
     useNewUrlParser: true,
